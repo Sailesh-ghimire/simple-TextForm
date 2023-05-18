@@ -7,8 +7,7 @@ import React, { useState } from 'react';
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 
@@ -29,13 +28,13 @@ function App() {
   const toggleMode = () => {
     if (mode === 'light') {
       setMode('dark');
-      document.body.style.backgroundColor = '#495057';
-      // showAlert("Dark mode enabled", "success");
+      document.body.style.backgroundColor = 'rgb(0 37 92)';
+      showAlert("Dark mode enabled", "success");
     }
     else {
       setMode('light');
       document.body.style.backgroundColor = 'white';
-      // showAlert("Light mode enabled", "success");
+      showAlert("Light mode enabled", "success");
 
     }
   }
@@ -49,10 +48,11 @@ function App() {
         <Alert alert={alert} />
         <div className="container my-3">
           <Routes>
-            <Route path="/about" element={<About />}>
+            <Route path="/about" element={<About mode={mode}/>}>
 
             </Route>
-            <Route path="/" element={<TextForm showAlert={showAlert} heading=" Enter to analyze" mode={mode} />}>
+            <Route path="/" element={<TextForm showAlert={showAlert} heading=" UpperCase, LowerCase" mode={mode} />}>
+            
           </Route>
         </Routes>
       </div>
