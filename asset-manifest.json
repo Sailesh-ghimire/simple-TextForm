@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/simple-TextForm/static/css/main.abd64e84.css",
-    "main.js": "/simple-TextForm/static/js/main.6f79ff8e.js",
+    "main.js": "/simple-TextForm/static/js/main.c3782e55.js",
     "static/js/787.4e8da860.chunk.js": "/simple-TextForm/static/js/787.4e8da860.chunk.js",
     "index.html": "/simple-TextForm/index.html",
     "main.abd64e84.css.map": "/simple-TextForm/static/css/main.abd64e84.css.map",
-    "main.6f79ff8e.js.map": "/simple-TextForm/static/js/main.6f79ff8e.js.map",
+    "main.c3782e55.js.map": "/simple-TextForm/static/js/main.c3782e55.js.map",
     "787.4e8da860.chunk.js.map": "/simple-TextForm/static/js/787.4e8da860.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.abd64e84.css",
-    "static/js/main.6f79ff8e.js"
+    "static/js/main.c3782e55.js"
   ]
 }
