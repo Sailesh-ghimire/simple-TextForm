@@ -44,7 +44,7 @@ function App() {
       {/* <Navbar/> */}
 
       {/* <Router> */}
-        <Navbar title="Text-Utilis" mode={mode} toggleMode={toggleMode} />
+        <Navbar title="Text-Utils" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
         <div className="container my-3">
           {/* <Routes>
@@ -52,7 +52,7 @@ function App() {
 
             </Route>
             <Route path="/" element={ */}
-            <TextForm showAlert={showAlert} heading=" UpperCase, LowerCase" mode={mode} />
+            <TextForm showAlert={showAlert} heading=" TextUtils - A word counter" mode={mode} />
             {/* }>
             
           </Route>
