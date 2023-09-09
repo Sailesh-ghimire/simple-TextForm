@@ -3,10 +3,9 @@ import React, { useState } from 'react'
 
 export default function TextForm(props) {
     const handleUpClick = () => {
-        // console.log("uppercase clicked" + text);
         let newText = text.toUpperCase();
         setText(newText)
-        props.showAlert("UpperCase Done!!","success");
+        props.showAlert("UpperCase Done!!", "success");
 
     }
     const handleOnChange = (event) => {
@@ -14,10 +13,9 @@ export default function TextForm(props) {
     }
 
     const handleLowClick = () => {
-        // console.log("uppercase clicked" + text);
         let newText = text.toLowerCase();
         setText(newText)
-        props.showAlert("LowerCase Done!!","success");
+        props.showAlert("LowerCase Done!!", "success");
 
 
     }
@@ -39,17 +37,17 @@ export default function TextForm(props) {
                         , color: props.mode === 'dark' ? 'white' : '#495057'
                     }} id="mybox" rows="6"></textarea>
                 </div>
-                <button disabled={text.length===0} className='btn btn-primary mx-2 my-2' onClick={handleUpClick}> Convert to UpperCase</button>
-                <button disabled={text.length===0} className='btn btn-primary mx-2 my-2' onClick={handleLowClick}> Convert to LowerCase</button>
-                <button disabled={text.length===0} className='btn btn-primary mx-2 my-2' onClick={copyText}> Copy Text</button>
+                <button disabled={text.length === 0} className='btn btn-primary mx-2 my-2' onClick={handleUpClick}> Convert to UpperCase</button>
+                <button disabled={text.length === 0} className='btn btn-primary mx-2 my-2' onClick={handleLowClick}> Convert to LowerCase</button>
+                <button disabled={text.length === 0} className='btn btn-primary mx-2 my-2' onClick={copyText}> Copy Text</button>
 
             </div>
             <div className="container" style={{ color: props.mode === 'dark' ? 'white' : '#495057' }} >
                 <h2>Your text summary</h2>
-                <p>{text.split(" ").filter((element)=>{return element.length!==0}).length} words and {text.length} characters</p>
-                <p>{0.008* text.split(" ").filter((element)=>{return element.length!==0}).length} Minutes read</p>
+                <p>{text.split(" ").filter((element) => { return element.length !== 0 }).length} words and {text.length} characters</p>
+                <p>{0.008 * text.split(" ").filter((element) => { return element.length !== 0 }).length} Minutes read</p>
                 <p>Preview</p>
-                <p>{text.length>0?text:"Enter some sentences above"}</p>
+                <p>{text.length > 0 ? text : "Enter some sentences above"}</p>
             </div>
         </>
     )
