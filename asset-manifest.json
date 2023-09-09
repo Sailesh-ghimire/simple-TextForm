@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/learn-react/static/css/main.abd64e84.css",
-    "main.js": "/learn-react/static/js/main.ed540480.js",
-    "static/js/787.4e8da860.chunk.js": "/learn-react/static/js/787.4e8da860.chunk.js",
-    "index.html": "/learn-react/index.html",
-    "main.abd64e84.css.map": "/learn-react/static/css/main.abd64e84.css.map",
-    "main.ed540480.js.map": "/learn-react/static/js/main.ed540480.js.map",
-    "787.4e8da860.chunk.js.map": "/learn-react/static/js/787.4e8da860.chunk.js.map"
+    "main.css": "/simple-TextForm/static/css/main.abd64e84.css",
+    "main.js": "/simple-TextForm/static/js/main.6f79ff8e.js",
+    "static/js/787.4e8da860.chunk.js": "/simple-TextForm/static/js/787.4e8da860.chunk.js",
+    "index.html": "/simple-TextForm/index.html",
+    "main.abd64e84.css.map": "/simple-TextForm/static/css/main.abd64e84.css.map",
+    "main.6f79ff8e.js.map": "/simple-TextForm/static/js/main.6f79ff8e.js.map",
+    "787.4e8da860.chunk.js.map": "/simple-TextForm/static/js/787.4e8da860.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.abd64e84.css",
-    "static/js/main.ed540480.js"
+    "static/js/main.6f79ff8e.js"
   ]
 }
